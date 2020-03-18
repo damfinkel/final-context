@@ -7,6 +7,7 @@ steps:
     - ln -sfn /home/node/node_modules node_modules
     - npm run lint
     - npm run lint-scss
+    - npm run ci-coverage-diff
 
 environment:
   GIT_COMMITTER_NAME: a
