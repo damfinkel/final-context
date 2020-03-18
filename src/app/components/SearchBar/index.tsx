@@ -21,6 +21,7 @@ function SearchBar({
     <div className={className}>
       <form onSubmit={onSubmit} className={formClassName}>
         {children}
+        Hola
         <button className={buttonClassName} type="submit" data-testid="search-bar-submit-button">
           {submitButtonText}
         </button>

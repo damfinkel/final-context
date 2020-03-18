@@ -2,10 +2,12 @@ import React from 'react';
 import { mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 
+import { Nullable } from '~utils/types';
+
 import SearchBar from './index';
 
 describe('#SearchBar', () => {
-  let component = null;
+  let component: Nullable<any> = null;
   const handleSubmit = jest.fn();
 
   beforeAll(() => {
